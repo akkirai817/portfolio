@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import "../styles/contactus.css";
 import "../styles/contact.css";
 import { pageIds } from "../utils/contants";
@@ -10,23 +10,24 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_59xy8ct",
-        "template_qn5xxdf",
-        form.current,
-        "fYsmEvcDI0grYVa_Z"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("mail send ✅");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm(
+    //     "service_59xy8ct",
+    //     "template_qn5xxdf",
+    //     form.current,
+    //     "fYsmEvcDI0grYVa_Z"
+    //   )
+    //   .then(
+    //     (result) => {
+    //       console.log(result.text);
+    //       alert("mail send ✅");
+    //     },
+    //     (error) => {
+    //       console.log(error.text);
+    //     }
+    //   );
 
+    alert("message send");
     e.target.reset();
   };
 
