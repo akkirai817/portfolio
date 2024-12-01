@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#h1{
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: center;
+ 
+}
+.containerdiv {
+  min-height: 100vh;
+  height: auto;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.projectsBox {
+  height: auto;
+  width: 300px;
+  margin-top: 5px;
+  box-shadow: inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px,
+    inset rgba(60, 70, 85, 0.5) 0px 0px 40px 0px,
+    inset rgba(0, 0, 0, 1) 0px 0px 36px -24px;
+  transition: 0.5s ease-in;
+}
+
+.projectsBox:hover {
+  box-shadow: 2px 1px 100px #fff;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #000000;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 2px 2px;
+  height: auto;
+
+}
+.projectsBox {
+  position: relative;
+}
+
+.projectsBox img {
+  height: 200px;
+  width: 100%;
+  border-radius: 0;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+
+
+.buttons {
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  position: absolute;
+  cursor: pointer;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%); 
+  visibility: hidden; 
+  opacity: 0.8;
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out, visibility 0s 0.5s;
+}
+
+.projectsBox:hover .buttons {
+  top: 0; 
+  visibility: visible; 
+  transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+  background-color: black
+}
+
+.btnsDiv{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.optionbtns {
+  padding: 5px 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  color: #fff;
+  background: transparent;
+  transition-duration: 0.8s;
+}
+
+.optionbtns a {
+  color: #fff;
+}
+
+.optionbtns a:hover {
+  background-color: transparent;
+  box-shadow: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.projectsBox h4 {
+  text-align: center;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+.projectsBox p {
+  text-align: center;
+  height: auto;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 1440px) {
+  .containerdiv {
+    justify-content: center;
+  }
+}
+
+

@@ -1,0 +1,10 @@
+export * from "./AboutUs";
+// export * from "./Contact";
+export * from "./ContactUs";
+export * from "./Header";
+export * from "./Home";
+export * from "./Layout";
+export * from "./ParticlesBg";
+export * from "./Projects";
+export * from "./Skills";
+export * from "./Teams";

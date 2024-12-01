@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster", cursive;
+  /* background-color: black; */
+}
+
+.main {
+  height: auto;
+  /* background-color: black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main h1 {
+  color: #fff;
+  font-size: 40px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+.main h1 span {
+  color: red;
+}
+.circles {
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 85%;
+  /* border: 2px solid red; */
+}
+.circle {
+  height: 180px;
+  width: 160px;
+  /* border: 3px solid green; */
+}
+
+.circletext p {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.circletext {
+  height: auto;
+  width: 180px;
+  margin: auto;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid tomato; */
+}
+
+.barbox {
+  background-color: black;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar {
+  height: 20px;
+  width: 60%;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+}
+.bar2 {
+  height: 20px;
+  width: 60%;
+  color: #fff;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.ProgressBar {
+  text-align: center;
+  height: 20px;
+  width: 90%;
+  color: black;
+  background-color: yellow;
+  border-radius: 10px;
+  font-family: "Lobster", cursive;
+}
+
+.ProgressBar2 {
+  text-align: center;
+  height: 20px;
+  width: 30%;
+  color: black;
+  background-color: yellow;
+  border-radius: 10px;
+  font-family: "Lobster", cursive;
+}
+
+@media (max-width: 769px) {
+  .circles {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .circletext {
+    height: 180px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .circles {
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .circletext {
+    /* margin-left: 40px; */
+    margin-top: 20px;
+  }
+  .circle {
+    height: 180px;
+    width: 160px;
+  }
+}
+
+@media (max-width: 350px) {
+  .circles {
+    width: 100%;
+    /* border: 2px solid green; */
+  }
+
+  .circletext {
+    height: 200px;
+    width: 160px;
+    margin: auto;
+  }
+  .circle {
+    height: 150px;
+    width: 150px;
+  }
+
+  .barbox .bar {
+    width: 90%;
+    border: 2px solid red;
+    height: auto;
+  }
+ 
+}

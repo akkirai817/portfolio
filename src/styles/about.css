@@ -1,0 +1,119 @@
+.about {
+  height: auto;
+  width: 100%;
+  position: relative;
+  /* border: 2px solid red; */
+  /* background-color: black; */
+  margin: auto;
+  align-items: center;
+  /* z-index: 1; */
+  margin-bottom: 20px;
+}
+
+.about h1 {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid white;
+  font-size: 40px;
+}
+
+.imgbox {
+  height: 280px;
+  width: 280px;
+  background-image: url("/public/images/akki.png");
+  background-size: cover;
+  background-position: 0;
+  background-blend-mode: lighten;
+  filter: drop-shadow(0 0 0.75rem rgb(100, 100, 100));
+  /* border-bottom: 4px solid #fff; */
+  /* margin: auto; */
+  object-fit: contain;
+  margin: 20px auto 20px auto;
+}
+.textbox {
+  height: auto;
+  width: 90%;
+  /* border: 2px solid red; */
+  margin: auto;
+  margin-top: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.textbox p {
+  text-align: center;
+  color: yellow;
+}
+.textbox p b {
+  color: #fff;
+}
+
+.btns {
+  height: auto;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px 0;
+  /* border: 3px solid red; */
+}
+.textbox .btns button {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  /* margin-left: 50px; */
+  border: 1px solid #fff;
+  color: #fff;
+  filter: none;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 1px 1px 12px #fff;
+  background-color: black;
+  margin: auto;
+}
+.textbox button:hover {
+  box-shadow: 1px 1px 10px yellow;
+  border: 1px solid yellow;
+}
+
+.about h2 {
+  font-size: 18px;
+  color: yellowgreen;
+  text-align: center;
+}
+
+@media (max-width: 825px) {
+  .about {
+    height: auto;
+    /* margin-top: 350px; */
+  }
+  .btns {
+    width: 80%;
+  }
+}
+@media (max-width: 425px) {
+  .about {
+    height: auto;
+  }
+  .about h2 {
+    text-align: center;
+  }
+
+  .textbox .btns button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .btns {
+    width: 100%;
+  }
+  .imgbox {
+    height: 200px;
+    width: 250px;
+  }
+
+  .textbox p b {
+    font-size: 14px;
+  }
+}

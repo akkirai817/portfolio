@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
+
+form {
+  height: auto;
+  width: 60%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+}
+
+form input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+form label {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+form p {
+  color: green;
+}
+
+form button {
+  height: 40px;
+  width: 120px;
+  margin: auto;
+  border-radius: 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  box-shadow: 1px 4px 25px rgb(193, 210, 7);
+  font-family: "Lobster", cursive;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+#message {
+  overflow: hidden;
+  width: 200px;
+}
+
+@media (max-width: 425px) {
+  form {
+    width: 100%;
+  }
+}

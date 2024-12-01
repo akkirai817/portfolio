@@ -1,0 +1,53 @@
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: yellow;
+  color: white;
+  border-radius: 10px;
+}
+
+.data {
+  height: 80vh;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.data form {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border: none;
+}
+
+.data h1 {
+  font-size: 40px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: center;
+  color: #fff;
+}
+
+.data form input {
+  width: 100%;
+  color: black;
+}
+
+.data form textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  width: 100%;
+  color: black;
+}
+
+@media (max-width: 425px) {
+  .data form {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
