@@ -40,7 +40,7 @@ export const Home = () => {
         </p>
         {/* /pdf/AsgarAnsari.pdf */}
         <a
-          href="#"
+          href="/pdf/resume.pdf"
           download="AknitRai-Resume"
           target="_blank"
           rel="noreferrer"
