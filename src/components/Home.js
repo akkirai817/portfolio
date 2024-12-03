@@ -39,7 +39,7 @@ export const Home = () => {
             frontend development.
           </b>
         </p>
-        
+
         <a
           href="/pdf/resume.pdf"
           download="AknitRai-Resume"

@@ -110,10 +110,33 @@
   }
   .imgbox {
     height: 200px;
-    width: 250px;
+    width: 200px;
   }
 
   .textbox p b {
     font-size: 14px;
+  }
+}
+@media (max-width: 324px) {
+  .about {
+    height: auto;
+  }
+
+  .about h2 {
+    text-align: center;
+  }
+
+  .textbox .btns button {
+    height: 30px;
+    width: 30px;
+  }
+
+  .btns {
+    width: 100%;
+  }
+
+  .imgbox {
+    height: 200px;
+    width: 200px;
   }
 }
