@@ -11,8 +11,8 @@ export const projectList = [
     para: "Color Generator",
     image: "/images/color.png",
     tech: "HTML , CSS , JavaScript",
-    githublink: "https://github.com/asgardev119/random-color-generator",
-    liveLink: "https://asgardev119.github.io/random-color-generator/",
+    githublink: "https://github.com/akkirai817/Color-generator",
+    liveLink: "https://akkirai817.github.io/Color-generator/",
   },
   {
     para: "Speech-Text Generator",
@@ -49,5 +49,11 @@ export const projectList = [
     para: "temperatureConverter",
     image: "/images/sc10.png",
     tech: "html css javascript",
+  },
+  {
+    para: "Yumm Xxpress",
+    image: "/images/yumm.png",
+    tech: "html css javascript java ",
+    githublink: "https://github.com/akkirai817/yum-project",
   },
 ];
