@@ -21,6 +21,7 @@ export const Home = () => {
                   "a ReactJs  Developer",
                   "a Frontend Developer",
                   "a Software Developer",
+                  "a DevOps Developer",
                 ],
                 autoStart: true,
                 loop: true,
@@ -38,7 +39,7 @@ export const Home = () => {
             frontend development.
           </b>
         </p>
-        {/* /pdf/AsgarAnsari.pdf */}
+        
         <a
           href="/pdf/resume.pdf"
           download="AknitRai-Resume"
