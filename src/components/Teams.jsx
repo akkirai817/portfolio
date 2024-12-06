@@ -27,7 +27,7 @@ export const Teams = () => {
     {
       name: "Asgar Ansari ",
       role: "front-End developer",
-      dp: "https://media.licdn.com/dms/image/v2/D4D35AQGIQrcW--Am4w/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1721233126889?e=1733407200&v=beta&t=SlUTK2979VV0jrHCLz7jY5DrdokWJcqWMpfjytidPr8",
+      dp: "/images/sc1.png",
       linkdn: "https://www.linkedin.com/in/asgar-ansari/",
       dec: " Currently pursuing B.Tech in Computer Science and Engineering, actively seeking opportunities in frontend development.",
     },
@@ -36,7 +36,7 @@ export const Teams = () => {
     {
       name: "Vivek Kumar singh",
       role: "full stack  developer",
-      dp: "https://media.licdn.com/dms/image/v2/D4D35AQHdsW9ualJVTw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1732623362177?e=1733407200&v=beta&t=ogxLPOv3VfDomt9cKkBOb3dweCWEfrZqRRrpV7n5Pfc",
+      dp: "/images/vivek.jpeg",
       linkdn: "https://www.linkedin.com/in/vivek-kumar-singh-755b761a3/",
       dec: "Senior System Engineer",
     },
